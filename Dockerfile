@@ -31,7 +31,7 @@ RUN wget https://github.com/bgo-bioimagerie/platformmanager/archive/V1.1.tar.gz 
 ENV MYSQL_URL="http://mysql:8080/" \
     MYSQL_DBNAME="platformmanager" \
     MYSQL_USER="username" \
-    MYSQL_PASS="password" \
+    MYSQL_PASS="password"
 
 ADD entrypoint.sh
 
